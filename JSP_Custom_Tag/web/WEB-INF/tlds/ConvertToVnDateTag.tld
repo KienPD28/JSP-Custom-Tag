@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib version="2.1" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd">
+  <tlib-version>1.0</tlib-version>
+  <short-name>converttovndatetag</short-name>
+  <uri>/WEB-INF/tlds/ConvertToVnDateTag</uri>
+
+  <!-- Định nghĩa tag -->
+  <tag>
+    <name>ConvertToVnDate</name> <!-- Tên của tag -->
+    <tag-class>mytags.ConvertToVnDateTag</tag-class> <!-- Đường dẫn tới class thực thi tag -->
+    <body-content>empty</body-content> <!-- Nội dung của thẻ (empty: không có nội dung) -->
+    <attribute>
+      <name>value</name> <!-- Thuộc tính của thẻ -->
+      <required>true</required> <!-- Thuộc tính có bắt buộc hay không -->
+      <rtexprvalue>true</rtexprvalue> <!-- Có chấp nhận biểu thức EL hay không -->
+    </attribute>
+  </tag>
+
+</taglib>
